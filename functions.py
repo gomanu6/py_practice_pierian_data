@@ -59,6 +59,15 @@ def is_next(check_list, check_int):
                 print(f'The number {the_int} is at position {i-1} and {i}')
 
 
+# Lambda Expressions
+
+filter(lambda num: num %2 == 0, [1,2,3,4])
+map(lambda num: num ** 2, [1,2,3,4])
+
+
+
+
+
 if __name__ == '__main__':
     answer = add_all(20, 30, 40, 10)
     print(answer)
