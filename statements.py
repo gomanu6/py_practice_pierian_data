@@ -36,6 +36,7 @@ st02 = 'Print every word in this sentence that has an even number of letters'
 
 def even_words(string):
     split_list = string.split()
+    help(split_list)
     for word in split_list:
         if len(word) % 2 == 0:
             print(f'{word} -- This word is even')
